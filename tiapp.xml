@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">J4jgSCAxM0VOnvdATndKBXbynnrZ2qKN</property>
+    <property name="acs-oauth-key-production" type="string">UFvLqJUs9MMrDIPpkhCmAJTBmd5zRMV4</property>
+    <property name="acs-api-key-production" type="string">16ftvl7SBIMOdBWtlTETL2Pd9AKL72E4</property>
+    <property name="acs-oauth-secret-development" type="string">um4gSbxb793p71YRWD1QKJdfYYpEoVPc</property>
+    <property name="acs-oauth-key-development" type="string">XpYMGPHSEeOGANGACMqLfOujZqFZCcAV</property>
+    <property name="acs-api-key-development" type="string">QXXwsCmbvnBOkiwhxY0ZKgPCTxnvoH4t</property>
+    <deployment-targets>
+        <target device="mobileweb">true</target>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.0.GA</sdk-version>
+    <id>com.NegoApps.CloudServiceExercise1</id>
+    <name>CloudServiceExercise1</name>
+    <version>1.0</version>
+    <publisher>addiel</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 by addiel</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>b609abaa-1a62-4d6a-8933-fb53a847a69e</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.1.0">ti.cloud</module>
+    </modules>
+</ti:app>
